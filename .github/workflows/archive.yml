@@ -25,6 +25,7 @@ jobs:
     
     - name: Run archive script
       run: python archive_to_wayback.py
+      continue-on-error: false
     
     - name: Upload results
       if: always()
@@ -33,3 +34,4 @@ jobs:
         name: archive-results
         path: archive_results.txt
         retention-days: 30
+        if-no-files-found: warn
