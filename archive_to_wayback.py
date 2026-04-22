@@ -156,7 +156,7 @@ def main():
     
     if fail_count > 0:
         log_print(f"WARNING: {fail_count} failures occurred")
-        sys.exit(1)
+        sys.exit(0)
     else:
         log_print("All URLs archived successfully!")
 
