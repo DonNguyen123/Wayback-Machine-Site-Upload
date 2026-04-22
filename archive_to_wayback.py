@@ -7,7 +7,7 @@ import os
 
 SITEMAP_URL = "https://widget-hub.com/sitemap.xml"
 WAYBACK_SUBMIT_URL = "https://web.archive.org/save/"
-REQUEST_DELAY_SECONDS = 10
+REQUEST_DELAY_SECONDS = 30
 MAX_URLS_PER_DAY = 200
 MAX_RETRIES = 3
 RETRY_DELAY = 30
